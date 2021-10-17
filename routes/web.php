@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return redirect()->route('campaign.index');
+    return redirect()->route('compaign.index');
 });
 
 Auth::routes();
