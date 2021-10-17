@@ -45,7 +45,9 @@
             openUploads() {
                 let pictures = [];
                 for (let picture of this.uploads) {
-                    picture = picture.substring(picture.indexOf('/var/www/public/') + 16 , picture.length );
+                    if (picture.indexOf('https') === -1) {
+                        picture = picture.substring(picture.indexOf('/var/www/public/') + 16 , picture.length );
+                    }
                     pictures.push(picture);
                 }
                 console.log('uploads to pass : ' , pictures);
