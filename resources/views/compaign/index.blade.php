@@ -9,10 +9,12 @@
                 </div>
             </div>
             <div class="col-md-12 text-center mt-2">
-                <button data-v-8486b866="" data-v-7039ca47="" type="button"
-                        class="button is-medium is-primary">
-                    <span>Create compaign</span>
-                </button>
+                <a href="/compaign/create">
+                    <button data-v-8486b866="" data-v-7039ca47="" type="button"
+                            class="button is-medium is-primary">
+                        <span>Create compaign</span>
+                    </button>
+                </a>
             </div>
             <div class="col-md-12 mt-4">
                 <div>
