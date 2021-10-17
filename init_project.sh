@@ -1,5 +1,8 @@
 #!/bin/sh
 
+printf "composer install ... \n" ;
+composer install
+
 printf "Cloning laradock ...\n"
 git clone https://github.com/Laradock/laradock.git
 
