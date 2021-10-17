@@ -26,3 +26,10 @@ init_project.sh
 ./init_project.sh
 
 ```
+
+- Open your browser and navigate to : 
+
+```
+http://localhost/
+
+```
