@@ -18,6 +18,9 @@ docker-compose build nginx mysql phpmyadmin redis workspace
 printf "launch docker-composer up -d ... \n" ;
 docker-compose up -d nginx mysql phpmyadmin redis workspace
 
+printf "docker-compose exec workspace bash ... \n" ;
+docker-compose exec workspace bash
+
 printf "Generating project key ...\n" ;
 php artisan key:generate
 
